@@ -66,6 +66,7 @@
       <OpenMPSupport>true</OpenMPSupport>
       <PrecompiledHeaderFile />
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <ForcedIncludeFiles>$(SolutionDir)src\lynn\forceinclude-win64-debug-msvc.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -88,6 +89,7 @@
       <PrecompiledHeaderFile />
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <ForcedIncludeFiles>$(SolutionDir)src\lynn\forceinclude-win64-release-msvc.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

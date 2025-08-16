@@ -63,6 +63,7 @@
       <StringPooling>true</StringPooling>
       <OpenMPSupport>true</OpenMPSupport>
       <PrecompiledHeaderFile />
+      <ForcedIncludeFiles>$(SolutionDir)src\lynn\forceinclude-win64-debug-msvc.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -84,6 +85,7 @@
       <OpenMPSupport>true</OpenMPSupport>
       <PrecompiledHeaderFile />
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <ForcedIncludeFiles>$(SolutionDir)src\lynn\forceinclude-win64-release-msvc.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
